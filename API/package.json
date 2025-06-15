@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "start": "concurrently \"npm run dev\" \"nodemon dist/Server.js\""
+    "start": "concurrently \"npm run dev\" \"nodemon  dist/Server.js\""
   },
   "keywords": [],
   "author": "",

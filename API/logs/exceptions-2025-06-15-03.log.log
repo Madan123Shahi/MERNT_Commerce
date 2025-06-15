@@ -1,0 +1,191 @@
+2025-06-15 08-31-12 error: uncaughtException: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\MERNT_Commerce\API\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\MERNT_Commerce\API\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/MERNT_Commerce/API/dist/Server.js:3:29
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\MERNT_Commerce\API\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/MERNT_Commerce/API/dist/Server.js:3:29
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 08-31-15 error: uncaughtException: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\MERNT_Commerce\API\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\MERNT_Commerce\API\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/MERNT_Commerce/API/dist/Server.js:3:29
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\MERNT_Commerce\API\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/MERNT_Commerce/API/dist/Server.js:3:29
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 08-37-24 error: uncaughtException: MONGO_SOCKET_TIMEOUT_MS is not defined
+ReferenceError: MONGO_SOCKET_TIMEOUT_MS is not defined
+    at file:///D:/MERNT_Commerce/API/dist/config/env.js:8:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ReferenceError: MONGO_SOCKET_TIMEOUT_MS is not defined
+    at file:///D:/MERNT_Commerce/API/dist/config/env.js:8:25
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 08-39-07 error: uncaughtException: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\MERNT_Commerce\API\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\MERNT_Commerce\API\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/MERNT_Commerce/API/dist/Server.js:3:29
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\MERNT_Commerce\API\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/MERNT_Commerce/API/dist/Server.js:3:29
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 08-39-56 error: uncaughtException: poolSize is not defined
+ReferenceError: poolSize is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:28:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ReferenceError: poolSize is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:28:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 08-43-29 error: uncaughtException: poolSize is not defined
+ReferenceError: poolSize is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:28:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ReferenceError: poolSize is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:28:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 08-43-33 error: uncaughtException: connectionTime is not defined
+ReferenceError: connectionTime is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:29:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ReferenceError: connectionTime is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:29:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 08-45-20 error: uncaughtException: connectionTime is not defined
+ReferenceError: connectionTime is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:29:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ReferenceError: connectionTime is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:29:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 08-46-13 error: uncaughtException: connectionTime is not defined
+ReferenceError: connectionTime is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:29:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ReferenceError: connectionTime is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:29:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 08-47-07 error: uncaughtException: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\MERNT_Commerce\API\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\MERNT_Commerce\API\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/MERNT_Commerce/API/dist/Server.js:3:29
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\MERNT_Commerce\API\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/MERNT_Commerce/API/dist/Server.js:3:29
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 08-47-33 error: uncaughtException: confi is not defined
+ReferenceError: confi is not defined
+    at file:///D:/MERNT_Commerce/API/dist/config/env.js:2:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ReferenceError: confi is not defined
+    at file:///D:/MERNT_Commerce/API/dist/config/env.js:2:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 08-47-43 error: uncaughtException: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\MERNT_Commerce\API\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\MERNT_Commerce\API\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/MERNT_Commerce/API/dist/Server.js:3:29
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ReferenceError: __dirname is not defined in ES module scope
+This file is being treated as an ES module because it has a '.js' file extension and 'D:\MERNT_Commerce\API\package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///D:/MERNT_Commerce/API/dist/Server.js:3:29
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 08-58-46 error: uncaughtException: poolSize is not defined
+ReferenceError: poolSize is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:12:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ReferenceError: poolSize is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:12:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 09-15-20 error: uncaughtException: MONGO_URI is not defined in .env file
+ConfigError: MONGO_URI is not defined in .env file
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:29:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ConfigError: MONGO_URI is not defined in .env file
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:29:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 09-15-40 error: uncaughtException: MONGO_URI is not defined in .env file
+ConfigError: MONGO_URI is not defined in .env file
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:41:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ConfigError: MONGO_URI is not defined in .env file
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:41:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 09-15-48 error: uncaughtException: MONGO_URI is not defined in .env file
+ConfigError: MONGO_URI is not defined in .env file
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:41:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ConfigError: MONGO_URI is not defined in .env file
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:41:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)

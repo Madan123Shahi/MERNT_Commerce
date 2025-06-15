@@ -1,0 +1,66 @@
+2025-06-15 20-35-13 error: uncaughtException: pr is not defined
+ReferenceError: pr is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:22:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ReferenceError: pr is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:22:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 20-36-33 error: uncaughtException: MONGO_URI is not defined in .env file
+ConfigError: MONGO_URI is not defined in .env file
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:36:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ConfigError: MONGO_URI is not defined in .env file
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:36:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 20-38-14 error: uncaughtException: MONGO_URI is not defined in .env file
+ConfigError: MONGO_URI is not defined in .env file
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:37:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ConfigError: MONGO_URI is not defined in .env file
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:37:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 20-38-23 error: uncaughtException: MONGO_URI is not defined in .env file
+ConfigError: MONGO_URI is not defined in .env file
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:37:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ConfigError: MONGO_URI is not defined in .env file
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:37:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 20-38-36 error: uncaughtException: MONGO_URI is not defined in .env file
+ConfigError: MONGO_URI is not defined in .env file
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:37:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ConfigError: MONGO_URI is not defined in .env file
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:37:11
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+2025-06-15 20-54-05 error: uncaughtException: poolSize is not defined
+ReferenceError: poolSize is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:6:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)
+ReferenceError: poolSize is not defined
+    at file:///D:/MERNT_Commerce/API/dist/DB.js:6:18
+    at ModuleJob.run (node:internal/modules/esm/module_job:222:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)

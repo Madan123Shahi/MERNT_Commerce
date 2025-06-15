@@ -1,25 +1,15 @@
-import mongoose, { Connection, ConnectOptions, mongo } from "mongoose";
-import { ConfigError } from "./errors/CustomErrors.js";
+import mongoose, { Connection, ConnectOptions } from "mongoose";
 import { logger } from "./utils/Logger.js";
-const MONGO_URI = process.env.MONGO_URI;
-const poolSize = process.env.MONGO_MAX_POOL_SIZE
-  ? parseInt(process.env.MAX_POOL_SIZE)
-  : 10;
-const connectionTime = process.env.MONGO_CONNECTION_TIMEOUT_MS
-  ? parseInt(process.env.MONGO_CONNECTION_TIMEOUT_MS)
-  : 5000;
-const socketTime = process.env.MONGO_SOCKET_TIMEOUT_MS
-  ? parseInt(process.env.MONGO_SOCKET_TIMEOUT_MS)
-  : 30000;
-const idleTime = process.env.MONGO_MAX_IDLE_TIME_MS
-  ? parseInt(process.env.MONGO_MAX_IDLE_TIME_MS)
-  : 10000;
-const serverTime = process.env.MONGO_SERVER_TIMEOUT_MS
-  ? parseInt(process.env.MONGO_SERVER_TIMEOUT_MS)
-  : 5000;
-if (!MONGO_URI) {
-  throw new ConfigError(`Environment Variable is not set for Database`);
-}
+import { ConfigError } from "./errors/CustomErrors.js";
+import {
+  MONGO_URI,
+  poolSize,
+  connectionTime,
+  socketTime,
+  idleTime,
+  serverTime,
+} from "./utils/MongoConnect.js";
+
 const options: ConnectOptions = {
   maxPoolSize: poolSize,
   connectTimeoutMS: connectionTime,
@@ -30,8 +20,11 @@ const options: ConnectOptions = {
   retryReads: true,
 };
 
-//MongoDB Connection Caching
 let connection: Connection | null = null;
+
+if (!MONGO_URI) {
+  throw new ConfigError("MONGO_URI is not defined in .env file");
+}
 
 export const connectDB = async (): Promise<Connection> => {
   if (connection) {
