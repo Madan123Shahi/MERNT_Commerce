@@ -11,6 +11,7 @@ export interface IUSER extends Document {
   phone: string;
   password: string;
   role: "user" | "admin";
+  comparePassword(candidatePassword: string): Promise<boolean>;
 }
 
 const userSchema: Schema<IUSER> = new mongoose.Schema(
@@ -77,3 +78,12 @@ userSchema.pre<IUSER>("save", async function (next) {
     next(error);
   }
 });
+
+userSchema.methods.comparePassword = async function (
+  candidatePassword: string
+): Promise<boolean> {
+  return await bcrypt.compare(candidatePassword, this.password);
+};
+
+const User: Model<IUSER> = mongoose.model<IUSER>("User", userSchema);
+export default User;
